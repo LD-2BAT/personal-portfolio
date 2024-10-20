@@ -1,86 +1,19 @@
-import { useState } from 'react'
-<<<<<<< HEAD
-=======
 
-
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-<<<<<<< HEAD
-     <>
-=======
+
     <>
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
-  {/* header 
-   ================================================== */}
-  <header>
-    <div className="row">
-      <div className="top-bar">
-        <a className="menu-toggle" href="#">
-          <span>Menu</span>
-        </a>
-        <div className="logo">
-          <a href="index.html">KARDS</a>
-        </div>
-        <nav id="main-nav-wrap">
-          <ul className="main-navigation">
-            <li className="current">
-              <a className="smoothscroll" href="#intro" title="">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#about" title="">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#resume" title="">
-                Resume
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#portfolio" title="">
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#services" title="">
-                Services
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#contact" title="">
-                Contact
-              </a>
-            </li>
-            <li>
-              <a href="styles.html" title="">
-                Style Demo
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>{" "}
-      {/* /top-bar */}
-    </div>{" "}
-    {/* /row */}
-  </header>{" "}
-  {/* /header */}
-  {/* intro section
-   ================================================== */}
+
   <section id="intro">
-    <div className="intro-overlay" />
+ 
     <div className="intro-content">
       <div className="row">
         <div className="col-twelve">
-          <h5>Hello, World.</h5>
-          <h1>I'm Juan Dela Cruz.</h1>
+          <h5>Hello.</h5>
+          <h1>I'm Lowe David Tubat.</h1>
           <p className="intro-position">
-            <span>Front-end Developer</span>
-            <span>UI/UX Designer</span>
+            <span>Web Developer</span>
           </p>
           <a className="button stroke smoothscroll" href="#about" title="">
             More About Me
@@ -124,15 +57,12 @@ function App() {
   <section id="about">
     <div className="row section-intro">
       <div className="col-twelve">
-        <h5>About</h5>
+        <h5>About Me</h5>
         <h1>Let me introduce myself.</h1>
         <div className="intro-info">
-          <img src="assets/images/profile-pic.jpg" alt="Profile Picture" />
+          <img src="/personal-portfolio/assets/images/profile-pic.jpg" alt="Profile Picture" />
           <p className="lead">
-            Lorem ipsum Exercitation culpa qui dolor consequat exercitation
-            fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure
-            sunt id pariatur Duis laboris amet exercitation veniam labore
-            consectetur ea id quis eiusmod.
+          I’m Lowe David Tubat, a skilled Web Developer with expertise in building responsive, high-performance websites. I specialize in front-end technologies and focus on creating seamless user experiences through clean, efficient code. Passionate about staying at the forefront of web development trends, I continually refine my skills to deliver innovative solutions.
           </p>
         </div>
       </div>
@@ -142,14 +72,12 @@ function App() {
       <div className="col-six tab-full">
         <h3>Profile</h3>
         <p>
-          Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in
-          magna sint minim officia consectetur nisi commodo ea magna pariatur
-          nisi cillum.
+        I specialize in front-end development, focusing on building user-friendly and visually engaging web interfaces. My work involves translating design concepts into functional and interactive websites using core technologies like HTML for content structure, CSS for layout and styling, and JavaScript for dynamic behavior and interactivity.
         </p>
         <ul className="info-list">
           <li>
             <strong>Fullname:</strong>
-            <span>Juan Dela Cruz</span>
+            <span>Lowe David Tubat</span>
           </li>
           <li>
             <strong>Birth Date:</strong>
@@ -157,7 +85,7 @@ function App() {
           </li>
           <li>
             <strong>Job:</strong>
-            <span>Freelancer, Frontend Developer</span>
+            <span>Web Developer</span>
           </li>
           <li>
             <strong>Website:</strong>
@@ -165,7 +93,7 @@ function App() {
           </li>
           <li>
             <strong>Email:</strong>
-            <span>me@kardswebsite.com</span>
+            <span>louiecamarines21@gmail.com</span>
           </li>
         </ul>{" "}
         {/* /info-list */}
@@ -173,9 +101,12 @@ function App() {
       <div className="col-six tab-full">
         <h3>Skills</h3>
         <p>
-          Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in
-          magna sint minim officia consectetur nisi commodo ea magna pariatur
-          nisi cillum.
+        Experienced and versatile web developer known for delivering innovative solutions,
+fostering collaboration, and embracing new technologies. With a creative mindset
+and a diverse skill set including HTML, CSS, JavaScript, React, Node.js, and
+MongoDB, I add substantial value to projects and teams. Eager to contribute to web
+development roles that leverage my technical expertise for continuous growth and
+excellence.
         </p>
         <ul className="skill-bars">
           <li>
@@ -194,7 +125,7 @@ function App() {
             <div className="progress percent70">
               <span>70%</span>
             </div>
-            <strong>JQuery</strong>
+            <strong>TAILWIND</strong>
           </li>
           <li>
             <div className="progress percent95">
@@ -206,7 +137,7 @@ function App() {
             <div className="progress percent75">
               <span>75%</span>
             </div>
-            <strong>Wordpress</strong>
+            <strong>REACT JS</strong>
           </li>
         </ul>{" "}
         {/* /skill-bars */}
@@ -221,7 +152,7 @@ function App() {
         >
           Hire Me
         </a>
-        <a href="#" title="Download CV" className="button button-primary">
+        <a href="/personal-portfolio/assets/resume/lowedavidtubatcv.pdf" title="Download CV" className="button button-primary" download >
           Download CV
         </a>
       </div>
@@ -230,166 +161,7 @@ function App() {
   {/* /process*/}
   {/* resume Section
    ================================================== */}
-  <section id="resume" className="grey-section">
-    <div className="row section-intro">
-      <div className="col-twelve">
-        <h5>Resume</h5>
-        <h1>More of my credentials.</h1>
-        <p className="lead">
-          Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing
-          dolore officia nisi aliqua incididunt Ut veniam lorem ipsum
-          Consectetur ut in in eu do.
-        </p>
-      </div>
-    </div>{" "}
-    {/* /section-intro*/}
-    <div className="row resume-timeline">
-      <div className="col-twelve resume-header">
-        <h2>Work Experience</h2>
-      </div>{" "}
-      {/* /resume-header */}
-      <div className="col-twelve">
-        <div className="timeline-wrap">
-          <div className="timeline-block">
-            <div className="timeline-ico">
-              <i className="fa fa-graduation-cap" />
-            </div>
-            <div className="timeline-header">
-              <h3>UI Designer</h3>
-              <p>July 2015 - Present</p>
-            </div>
-            <div className="timeline-content">
-              <h4>Awesome Studio</h4>
-              <p>
-                Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna
-                consectetur nisi cupidatat laboris esse eiusmod deserunt aute do
-                quis velit esse sed Ut proident cupidatat nulla esse cillum
-                laborum occaecat nostrud sit dolor incididunt amet est occaecat
-                nisi.
-              </p>
-            </div>
-          </div>{" "}
-          {/* /timeline-block */}
-          <div className="timeline-block">
-            <div className="timeline-ico">
-              <i className="fa fa-graduation-cap" />
-            </div>
-            <div className="timeline-header">
-              <h3>Front-end Developer</h3>
-              <p>July 2014 - June 2015</p>
-            </div>
-            <div className="timeline-content">
-              <h4>Super Cool Agency</h4>
-              <p>
-                Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna
-                consectetur nisi cupidatat laboris esse eiusmod deserunt aute do
-                quis velit esse sed Ut proident cupidatat nulla esse cillum
-                laborum occaecat nostrud sit dolor incididunt amet est occaecat
-                nisi incididunt.
-              </p>
-            </div>
-          </div>{" "}
-          {/* /timeline-block */}
-          <div className="timeline-block">
-            <div className="timeline-ico">
-              <i className="fa fa-graduation-cap" />
-            </div>
-            <div className="timeline-header">
-              <h3>Web Designer</h3>
-              <p>May 2013 - June 2014</p>
-            </div>
-            <div className="timeline-content">
-              <h4>Great Designs Studio</h4>
-              <p>
-                Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna
-                consectetur nisi cupidatat laboris esse eiusmod deserunt aute do
-                quis velit esse sed Ut proident cupidatat nulla esse cillum
-                laborum occaecat nostrud sit dolor incididunt amet est occaecat
-                nisi incididunt.
-              </p>
-            </div>
-          </div>{" "}
-          {/* /timeline-block */}
-        </div>{" "}
-        {/* /timeline-wrap */}
-      </div>{" "}
-      {/* /col-twelve */}
-    </div>{" "}
-    {/* /resume-timeline */}
-    <div className="row resume-timeline">
-      <div className="col-twelve resume-header">
-        <h2>Education</h2>
-      </div>{" "}
-      {/* /resume-header */}
-      <div className="col-twelve">
-        <div className="timeline-wrap">
-          <div className="timeline-block">
-            <div className="timeline-ico">
-              <i className="fa fa-briefcase" />
-            </div>
-            <div className="timeline-header">
-              <h3>Master Degree</h3>
-              <p>July 2015 - Present</p>
-            </div>
-            <div className="timeline-content">
-              <h4>University of Life</h4>
-              <p>
-                Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna
-                consectetur nisi cupidatat laboris esse eiusmod deserunt aute do
-                quis velit esse sed Ut proident cupidatat nulla esse cillum
-                laborum occaecat nostrud sit dolor incididunt amet est occaecat
-                nisi.
-              </p>
-            </div>
-          </div>{" "}
-          {/* /timeline-block */}
-          <div className="timeline-block">
-            <div className="timeline-ico">
-              <i className="fa fa-briefcase" />
-            </div>
-            <div className="timeline-header">
-              <h3>Bachelor Degree</h3>
-              <p>July 2014 - June 2015</p>
-            </div>
-            <div className="timeline-content">
-              <h4>State Design University</h4>
-              <p>
-                Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna
-                consectetur nisi cupidatat laboris esse eiusmod deserunt aute do
-                quis velit esse sed Ut proident cupidatat nulla esse cillum
-                laborum occaecat nostrud sit dolor incididunt amet est occaecat
-                nisi incididunt.
-              </p>
-            </div>
-          </div>{" "}
-          {/* /timeline-block */}
-          <div className="timeline-block">
-            <div className="timeline-ico">
-              <i className="fa fa-briefcase" />
-            </div>
-            <div className="timeline-header">
-              <h3>Bachelor Degree</h3>
-              <p>May 2013 - June 2014</p>
-            </div>
-            <div className="timeline-content">
-              <h4>Design College</h4>
-              <p>
-                Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna
-                consectetur nisi cupidatat laboris esse eiusmod deserunt aute do
-                quis velit esse sed Ut proident cupidatat nulla esse cillum
-                laborum occaecat nostrud sit dolor incididunt amet est occaecat
-                nisi incididunt.
-              </p>
-            </div>
-          </div>{" "}
-          {/* /timeline-block */}
-        </div>{" "}
-        {/* /timeline-wrap */}
-      </div>{" "}
-      {/* /col-twelve */}
-    </div>{" "}
-    {/* /resume-timeline */}
-  </section>{" "}
+
   {/* /features */}
   {/* Portfolio Section
    ================================================== */}
@@ -399,255 +171,73 @@ function App() {
         <h5>Portfolio</h5>
         <h1>Check Out Some of My Works.</h1>
         <p className="lead">
-          Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing
-          dolore officia nisi aliqua incididunt Ut veniam lorem ipsum
-          Consectetur ut in in eu do.
+        Explore how I blend creativity, technical expertise, and attention to detail to develop high-quality digital solutions. Each project is a reflection of my passion for building functional, visually appealing, and user-centric web applications. Whether it's creating sleek landing pages, developing complex e-commerce platforms, or designing interactive dashboards, I ensure that every solution is optimized for performance, accessibility, and seamless user experience.
         </p>
       </div>
     </div>{" "}
     {/* /section-intro*/}
     <div className="row portfolio-content">
-      <div className="col-twelve">
+      <div className="center col-twelve">
         {/* portfolio-wrapper */}
         <div id="folio-wrapper" className="block-1-2 block-mob-full stack">
-<<<<<<< HEAD
           <div className=" folio-item">
-=======
-          <div className="bgrid folio-item">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
             <div className="item-wrap">
-              <img src="assets/images/portfolio/liberty.jpg" alt="Liberty" />
-              <a href="#modal-01" className="overlay">
+              <img src="/personal-portfolio/assets/images/portfolio/simmons.jpg" alt="Liberty" />
+              <a href="https://simmonsactivity.netlify.app/" target="_blank" className="overlay">
                 <div className="folio-item-table">
                   <div className="folio-item-cell">
-                    <h3 className="folio-title">Liberty</h3>
-                    <span className="folio-types">Graphic Design</span>
+                    <h3 className="folio-title">CLICK HERE TO CHECK OUT</h3>
+                    <span className="folio-types">
+                   
+                      </span>
                   </div>
                 </div>
               </a>
             </div>
           </div>{" "}
           {/* /folio-item */}
-<<<<<<< HEAD
           <div className=" folio-item">
-=======
-          <div className="bgrid folio-item">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
             <div className="item-wrap">
-              <img src="assets/images/portfolio/shutterbug.jpg" alt="Shutterbug" />
+              <img src="/personal-portfolio/assets/images/portfolio/lowe-project.jpg" alt="Shutterbug" />
               <a href="#modal-02" className="overlay">
                 <div className="folio-item-table">
                   <div className="folio-item-cell">
-                    <h3 className="folio-title">Shutterbug</h3>
-                    <span className="folio-types">Web Design</span>
+                    <h3 className="folio-title">CLICK HERE TO CHECK OUT</h3>
+                    <span className="folio-types"></span>
                   </div>
                 </div>
               </a>
             </div>
           </div>{" "}
           {/* /folio-item */}
-<<<<<<< HEAD
           <div className=" folio-item">
-=======
-          <div className="bgrid folio-item">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
             <div className="item-wrap">
-              <img src="assets/images/portfolio/clouds.jpg" alt="Clouds" />
-              <a href="#modal-03" className="overlay">
+              <img src="/personal-portfolio/assets/images/portfolio/control.jpg" alt="Clouds" />
+              <a href="https://infographlowe.netlify.app/" target="_blank" className="overlay">
                 <div className="folio-item-table">
                   <div className="folio-item-cell">
-                    <h3 className="folio-title">Clouds</h3>
-                    <span className="folio-types">Web Design</span>
+                    <h3 className="folio-title">CLICK HERE TO CHECK OUT</h3>
+                    <span className="folio-types"></span>
                   </div>
                 </div>
               </a>
             </div>
           </div>{" "}
           {/* /folio-item */}
-<<<<<<< HEAD
           <div className=" folio-item">
-=======
-          <div className="bgrid folio-item">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
             <div className="item-wrap">
-              <img src="assets/images/portfolio/beetle.jpg" alt="Beetle" />
-              <a href="#modal-04" className="overlay">
+              <img src="/personal-portfolio/assets/images/portfolio/daniels.jpg" alt="Beetle" />
+              <a href="https://danielscof.netlify.app/" target="_blank" className="overlay">
                 <div className="folio-item-table">
                   <div className="folio-item-cell">
-                    <h3 className="folio-title">Beetle</h3>
-                    <span className="folio-types">Branding</span>
+                  <h3 className="folio-title">CLICK HERE TO CHECKOUT</h3>
+                    <span className="folio-types"></span>
                   </div>
                 </div>
               </a>
             </div>
           </div>{" "}
-          {/* /folio-item */}
-<<<<<<< HEAD
-          <div className=" folio-item">
-=======
-          <div className="bgrid folio-item">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
-            <div className="item-wrap">
-              <img src="assets/images/portfolio/lighthouse.jpg" alt="Lighthouse" />
-              <a href="#modal-05" className="overlay">
-                <div className="folio-item-table">
-                  <div className="folio-item-cell">
-                    <h3 className="folio-title">Lighthouse</h3>
-                    <span className="folio-types">Web Development</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>{" "}
-          {/* /folio-item */}
-<<<<<<< HEAD
-          <div className=" folio-item">
-=======
-          <div className="bgrid folio-item">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
-            <div className="item-wrap">
-              <img src="assets/images/portfolio/salad.jpg" alt="Salad" />
-              <a href="#modal-06" className="overlay">
-                <div className="folio-item-table">
-                  <div className="folio-item-cell">
-                    <h3 className="folio-title">Salad</h3>
-                    <span className="folio-types">Branding</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>{" "}
-          {/* /folio-item */}
-          {/* modal popups - begin
-	            ============================================================= */}
-          <div id="modal-01" className="popup-modal slider mfp-hide">
-            <div className="media">
-              <img src="assets/images/portfolio/modals/m-liberty.jpg" alt="" />
-            </div>
-            <div className="description-box">
-              <h4>Liberty</h4>
-              <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
-              </p>
-              <div className="categories">Web Development</div>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a href="#" className="popup-modal-dismiss">
-                Close
-              </a>
-            </div>
-          </div>{" "}
-          {/* /modal-01 */}
-          <div id="modal-02" className="popup-modal slider mfp-hide">
-            <div className="media">
-              <img src="assets/images/portfolio/modals/m-shutterbug.jpg" alt="" />
-            </div>
-            <div className="description-box">
-              <h4>Shutterbug</h4>
-              <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
-              </p>
-              <div className="categories">Web Design</div>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a href="#" className="popup-modal-dismiss">
-                Close
-              </a>
-            </div>
-          </div>{" "}
-          {/* /modal-02 */}
-          <div id="modal-03" className="popup-modal slider mfp-hide">
-            <div className="media">
-              <img src="assets/images/portfolio/modals/m-clouds.jpg" alt="" />
-            </div>
-            <div className="description-box">
-              <h4>Clouds</h4>
-              <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
-              </p>
-              <div className="categories">Web Design</div>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a href="#" className="popup-modal-dismiss">
-                Close
-              </a>
-            </div>
-          </div>{" "}
-          {/* /modal-03 */}
-          <div id="modal-04" className="popup-modal slider mfp-hide">
-            <div className="media">
-              <img src="assets/images/portfolio/modals/m-beetle.jpg" alt="" />
-            </div>
-            <div className="description-box">
-              <h4>Beetle</h4>
-              <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
-              </p>
-              <div className="categories">Branding</div>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a href="#" className="popup-modal-dismiss">
-                Close
-              </a>
-            </div>
-          </div>{" "}
-          {/* /modal-04 */}
-          <div id="modal-05" className="popup-modal slider mfp-hide">
-            <div className="media">
-              <img src="assets/images/portfolio/modals/m-lighthouse.jpg" alt="" />
-            </div>
-            <div className="description-box">
-              <h4>Lighthouse</h4>
-              <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
-              </p>
-              <div className="categories">Web Development</div>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a href="#" className="popup-modal-dismiss">
-                Close
-              </a>
-            </div>
-          </div>{" "}
-          {/* /modal-05 */}
-          <div id="modal-06" className="popup-modal slider mfp-hide">
-            <div className="media">
-              <img src="assets/images/portfolio/modals/m-salad.jpg" alt="" />
-            </div>
-            <div className="description-box">
-              <h4>Salad</h4>
-              <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
-              </p>
-              <div className="categories">Branding</div>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a href="#" className="popup-modal-dismiss">
-                Close
-              </a>
-            </div>
-          </div>{" "}
-          {/* /modal-06 */}
-          {/* modal popups - end
-	            ============================================================= */}
+
         </div>{" "}
         {/* /portfolio-wrapper */}
       </div>{" "}
@@ -658,242 +248,13 @@ function App() {
   {/* /portfolio */}
   {/* CTA Section
    ================================================== */}
-  <section id="cta" className="grey-section">
-    <div className="row cta-content">
-      <div className="col-twelve section-ads">
-        <h2 className="h01">
-          <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">
-            Styleshout Recommends Dreamhost.
-          </a>
-        </h2>
-        <p className="lead">
-          Looking for an awesome and reliable webhosting? Try{" "}
-          <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">
-            <span>DreamHost</span>
-          </a>
-          . Get <span>$50 off</span> when you sign up with the promocode{" "}
-          <span>styleshout</span>.
-          {/* Simply type	the promocode in the box labeled “Promo Code” when placing your order. */}
-        </p>
-        <div className="action">
-          <a
-            className="button button-primary large"
-            href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"
-          >
-            Sign Up Now
-          </a>
-        </div>
-      </div>
-    </div>{" "}
-    {/* /cta-content */}
-  </section>{" "}
-  {/* /cta */}
+
   {/* services Section
    ================================================== */}
-  <section id="services">
-    <div className="overlay" />
-    <div className="row section-intro">
-      <div className="col-twelve">
-        <h5>Services</h5>
-        <h1>What Can I Do For You?</h1>
-        <p className="lead">
-          Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing
-          dolore officia nisi aliqua incididunt Ut veniam lorem ipsum
-          Consectetur ut in in eu do.
-        </p>
-      </div>
-    </div>{" "}
-    {/* /section-intro */}
-    <div className="row services-content">
-      <div id="owl-slider" className="owl-carousel services-list">
-        <div className="service">
-          <span className="icon">
-            <i className="icon-earth" />
-          </span>
-          <div className="service-content">
-            <h3>Webdesign</h3>
-            <p className="desc">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit.
-            </p>
-          </div>
-        </div>{" "}
-        {/* /service */}
-        <div className="service">
-          <span className="icon">
-            <i className="icon-window" />
-          </span>
-          <div className="service-content">
-            <h3>Web Development</h3>
-            <p className="desc">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit.
-            </p>
-          </div>
-        </div>{" "}
-        {/* /service */}
-        <div className="service">
-          <span className="icon">
-            <i className="icon-paint-brush" />
-          </span>
-          <div className="service-content">
-            <h3>Branding</h3>
-            <p className="desc">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit.
-            </p>
-          </div>
-        </div>{" "}
-        {/* /service */}
-        <div className="service">
-          <span className="icon">
-            <i className="icon-toggles" />
-          </span>
-          <div className="service-content">
-            <h3>UI/UX Design</h3>
-            <p className="desc">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit.
-            </p>
-          </div>
-        </div>{" "}
-        {/* /service */}
-        <div className="service">
-          <span className="icon">
-            <i className="icon-image" />
-          </span>
-          <div className="service-content">
-            <h3>Graphics Design</h3>
-            <p className="desc">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit.
-            </p>
-          </div>
-        </div>{" "}
-        {/* /service */}
-        <div className="service">
-          <span className="icon">
-            <i className="icon-chat" />
-          </span>
-          <div className="service-content">
-            <h3>Consultancy</h3>
-            <p className="desc">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit.
-            </p>
-          </div>
-        </div>{" "}
-        {/* /service */}
-      </div>{" "}
-      {/* /services-list */}
-    </div>{" "}
-    {/* /services-content */}
-  </section>{" "}
-  {/* /services */}
+
   {/* stats Section
    ================================================== */}
-  <section id="stats" className="count-up">
-    <div className="row">
-      <div className="col-twelve">
-        <div className="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
-<<<<<<< HEAD
-          <div className=" stat">
-=======
-          <div className="bgrid stat">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
-            <div className="icon-part">
-              <i className="icon-pencil-ruler" />
-            </div>
-            <h3 className="stat-count">1500</h3>
-            <h5 className="stat-title">Projects Completed</h5>
-          </div>{" "}
-          {/* /stat */}
-<<<<<<< HEAD
-          <div className=" stat">
-=======
-          <div className="bgrid stat">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
-            <div className="icon-part">
-              <i className="icon-users" />
-            </div>
-            <h3 className="stat-count">900</h3>
-            <h5 className="stat-title">Happy Clients</h5>
-          </div>{" "}
-          {/* /stat */}
-<<<<<<< HEAD
-          <div className=" stat">
-=======
-          <div className="bgrid stat">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
-            <div className="icon-part">
-              <i className="icon-badge" />
-            </div>
-            <h3 className="stat-count">200</h3>
-            <h5 className="stat-title">Awards Received</h5>
-          </div>{" "}
-          {/* /stat */}
-<<<<<<< HEAD
-          <div className=" stat">
-=======
-          <div className="bgrid stat">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
-            <div className="icon-part">
-              <i className="icon-light-bulb" />
-            </div>
-            <h3 className="stat-count">120</h3>
-            <h5 className="stat-title">Crazy Ideas</h5>
-          </div>{" "}
-          {/* /stat */}
-<<<<<<< HEAD
-          <div className=" stat">
-=======
-          <div className="bgrid stat">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
-            <div className="icon-part">
-              <i className="icon-cup" />
-            </div>
-            <h3 className="stat-count">1500</h3>
-            <h5 className="stat-title">Coffee Cups</h5>
-          </div>{" "}
-          {/* /stat */}
-<<<<<<< HEAD
-          <div className=" stat">
-=======
-          <div className="bgrid stat">
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
-            <div className="icon-part">
-              <i className="icon-clock" />
-            </div>
-            <h3 className="stat-count">7200</h3>
-            <h5 className="stat-title">Hours</h5>
-          </div>{" "}
-          {/* /stat */}
-        </div>{" "}
-        {/* /stats-list */}
-      </div>{" "}
-      {/* /twelve */}
-    </div>{" "}
-    {/* /row */}
-  </section>{" "}
-  {/* /stats */}
+
   {/* contact
    ================================================== */}
   <section id="contact">
@@ -902,9 +263,7 @@ function App() {
         <h5>Contact</h5>
         <h1>I'd Love To Hear From You.</h1>
         <p className="lead">
-          Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing
-          dolore officia nisi aliqua incididunt Ut veniam lorem ipsum
-          Consectetur ut in in eu do.
+        Whether you have a question, a project idea, or just want to connect, feel free to reach out. I’m always open to discussing new opportunities, collaborations, or freelance work. Let’s work together to turn your ideas into high-quality, functional digital solutions.
         </p>
       </div>
     </div>{" "}
@@ -988,11 +347,11 @@ function App() {
         </div>
         <h5>Where to find me</h5>
         <p>
-          1600 Amphitheatre Parkway
+          Sampaloc, Apalit
           <br />
-          Mountain View, CA
+          Pampanga, Philippines
           <br />
-          94043 US
+          2016
         </p>
       </div>
       <div className="col-four tab-full collapse">
@@ -1001,9 +360,8 @@ function App() {
         </div>
         <h5>Email Me At</h5>
         <p>
-          someone@kardswebsite.com
+          louiecamarines21@gmail.com
           <br />
-          info@kardswebsite.com
         </p>
       </div>
       <div className="col-four tab-full">
@@ -1075,12 +433,10 @@ function App() {
   <div id="preloader">
     <div id="loader" />
   </div>
-<<<<<<< HEAD
 </>
-=======
-    </>
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
-  )
-}
+
+
+   )
+  }
 
 export default App

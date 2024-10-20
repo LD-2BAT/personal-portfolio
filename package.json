@@ -1,13 +1,12 @@
 {
-<<<<<<< HEAD
+  "homepage": "https://LD-2BAT.github.io/personal-portfolio",
   "name": "baby",
-=======
-  "name": "hardway-react",
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -26,11 +25,8 @@
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
+    "gh-pages": "^6.2.0",
     "globals": "^15.9.0",
-<<<<<<< HEAD
     "vite": "^5.4.8"
-=======
-    "vite": "^5.4.1"
->>>>>>> c5dccdc (Hardway-react_personal-portfolio)
   }
 }
